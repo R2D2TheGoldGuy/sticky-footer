@@ -88,7 +88,7 @@ a:active {
 .main-header {
   padding-top: 170px;
   height: 850px;
-  background: linear-gradient(#F39C12, transparent 80%),
+  background: linear-gradient(#F9690E, transparent 80%),
               linear-gradient(0deg, #fff, transparent),
               #ffa949 url('../img/mountains.jpg') no-repeat center;
   background-size: cover;
@@ -133,15 +133,30 @@ a:active {
   display: inline-block;
 }
 
+.space {
+  padding: 20px 0 0;
+  background: #FDE3A7;
+  color: #333;
+  font-size: 1.5em;
+}
+.arrow-size {
+  width: 50px;
+  margin: 40px 0 0;
+}
+
 .sticky-footer {
-  min-height: calc(335vh - 186px);
+  min-height: calc(100vh - 136px);
 }
 
 .main-footer {
   padding: 10px 0;
-  background: #DADFE1;
-  border-bottom: 10px solid #ffa949;
-  border-top: 10px solid #ffa949;
+  background: linear-gradient(to right, #EC644B, #F2784B, #EB9532, #F4B350); /* Standard syntax */
+}
+
+.main-footer p,
+.main-footer a {
+  color: white;
+  text-shadow: 1px 1px 1px #333;
 }
 
 .t-border {
